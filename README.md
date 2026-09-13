@@ -58,7 +58,7 @@ El análisis está desarrollado en `Proyecto_dataxperience.ipynb`, organizado en
 1. **Contexto, objetivo y preguntas de investigación**
 2. **Datos utilizados**  fuente y descripción de variables
 3. **Carga y revisión inicial de los datos**  dimensiones, tipos de datos, valores faltantes, duplicados, revisión de variables categóricas y numéricas sobre los datos crudos
-4. **Limpieza de los datos**— eliminación de duplicados, corrección de formatos de fecha, normalización de la ubicación geográfica, de variables categóricas (región, tipo de institución, canal, línea terapéutica, unidad de medida, receta) y de variables numéricas, seguida de una auditoría final
+4. **Limpieza de los datos** eliminación de duplicados, corrección de formatos de fecha, normalización de la ubicación geográfica, de variables categóricas (región, tipo de institución, canal, línea terapéutica, unidad de medida, receta) y de variables numéricas, seguida de una auditoría final
 5. **Análisis Exploratorio de Datos (EDA)** comportamiento de ventas, rentabilidad por institución/fabricante/ubicación, relación entre inventario, lead time y riesgo de desabastecimiento, productos con alta rentabilidad y alto riesgo
 6. **Patrones y posibles respuestas** a las preguntas de investigación
 7. **Comparación crudo vs. limpio**  impacto de la limpieza en las conclusiones
