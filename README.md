@@ -56,14 +56,14 @@ Analizar la relación entre el tipo de institución, el fabricante y la ubicaci�
 El análisis está desarrollado en `Proyecto_dataxperience.ipynb`, organizado en las siguientes secciones:
 
 1. **Contexto, objetivo y preguntas de investigación**
-2. **Datos utilizados** — fuente y descripción de variables
-3. **Carga y revisión inicial de los datos** — dimensiones, tipos de datos, valores faltantes, duplicados, revisión de variables categóricas y numéricas sobre los datos crudos
-4. **Limpieza de los datos** — eliminación de duplicados, corrección de formatos de fecha, normalización de la ubicación geográfica, de variables categóricas (región, tipo de institución, canal, línea terapéutica, unidad de medida, receta) y de variables numéricas, seguida de una auditoría final
-5. **Análisis Exploratorio de Datos (EDA)** — comportamiento de ventas, rentabilidad por institución/fabricante/ubicación, relación entre inventario, lead time y riesgo de desabastecimiento, productos con alta rentabilidad y alto riesgo
+2. **Datos utilizados**  fuente y descripción de variables
+3. **Carga y revisión inicial de los datos**  dimensiones, tipos de datos, valores faltantes, duplicados, revisión de variables categóricas y numéricas sobre los datos crudos
+4. **Limpieza de los datos**— eliminación de duplicados, corrección de formatos de fecha, normalización de la ubicación geográfica, de variables categóricas (región, tipo de institución, canal, línea terapéutica, unidad de medida, receta) y de variables numéricas, seguida de una auditoría final
+5. **Análisis Exploratorio de Datos (EDA)** comportamiento de ventas, rentabilidad por institución/fabricante/ubicación, relación entre inventario, lead time y riesgo de desabastecimiento, productos con alta rentabilidad y alto riesgo
 6. **Patrones y posibles respuestas** a las preguntas de investigación
-7. **Comparación crudo vs. limpio** — impacto de la limpieza en las conclusiones
+7. **Comparación crudo vs. limpio**  impacto de la limpieza en las conclusiones
 8. **Conclusiones preliminares y próximos pasos**
-9. **Estadística descriptiva** — tendencia central, dispersión, forma de la distribución, valores atípicos, comparación por segmentos
+9. **Estadística descriptiva**  tendencia central, dispersión, forma de la distribución, valores atípicos, comparación por segmentos
 10. **Modelado predictivo**:
     - **Modelo 1 (Regresión):** OLS, Ridge y Lasso para predecir `Margen_Bruto_Pct`
     - **Modelo 2 (Clasificación):** Random Forest para predecir `Riesgo_Alto` (variable binaria derivada de `Riesgo_Stockout` según su mediana), incluyendo matriz de confusión e importancia de variables
